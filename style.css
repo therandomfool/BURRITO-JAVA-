@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+    width: 70%;
+    padding-right: 3em;
+}
+
+
+.logo{
+    width: 7.7em;
+    height: 7.5em;
+}
+
