@@ -55,15 +55,15 @@ img.logo {
     color: var(--clr-primary-600);
 }
 
-.lead img {
-    height: 4em;
+/* .lead img {
+    height: em;
     width: 3em;
-}
+} */
 
 img {
     display: block;
-    height: 11em;
-    width: 13em;
+    height: 20em;
+    width: 22em;
 }
 
 section {
@@ -150,6 +150,7 @@ section {
     margin: 5px;
     font-size: 3.9em;
     background-color: var(--clr-primary-400);
+    border-radius: 20%;
 }
 
 .social li i:hover,
@@ -174,3 +175,9 @@ nav {
     left: 0;
     position: absolute;
 }
+
+/* .skull{
+    background-image: url("assets/dark\ sugar\ skull.jpg");
+    z-index: -5;
+    background-color: rgba(240,240,240,.03);
+} */
