@@ -1,7 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ranchers&display=swap');
+
+
+:root {
+    --clr-primary-200: ghostwhite;
+    --clr-primary-400: #2e8df1;
+    --clr-primary-600: rgb(94, 5, 22);
+
+    --ff-primary: 'Lora', serif;
+    --ff-secondary: 'Lato', sans-serif;
+    --ff-display: 'Ranchers', cursive;
+
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--ff-primary);
 }
 
 .navbar-nav{
@@ -9,9 +26,16 @@
     padding-right: 3em;
 }
 
-
-.logo{
-    width: 7.7em;
-    height: 7.5em;
+img.logo{
+    margin-left: 20px;
 }
+.logo{
+    background-color: var(--clr-primary-200);
+    width: 7em;
+    height: 7em;
+    border: .25em inset #1c041c;
+    border-radius: 50%;
+
+}
+
 
