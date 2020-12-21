@@ -160,7 +160,7 @@ section {
 
 
 footer {
-display: block;
+    display: block;
     position: relative;
     left: 0;
     bottom: 0;
@@ -181,3 +181,81 @@ nav {
     z-index: -5;
     background-color: rgba(240,240,240,.03);
 } */
+
+.skull {
+    /* position: fixed; */
+    display: grid;
+    grid-template-columns: .75fr 3fr 3fr .75fr;
+    gap: 15px;
+}
+
+.bburrito {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: end;
+    width: 100%;
+}
+
+.ccoffee {
+    grid-column: 3;
+    text-align: start;
+    width: 100%;
+}
+
+.addOn {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-family: var(--ff-display);
+    margin-top: -4em;
+    letter-spacing: 4px;
+    margin-bottom: 3rem;
+}
+
+.bburrito h1,
+.ccoffee h1 {
+    font-family: var(--ff-display);
+    text-align: right;
+    padding: 1.5em;
+    letter-spacing: 5px;
+}
+
+.bburrito ul li {
+    list-style-type: none;
+    font-family: var(--ff-primary);
+    text-align: left;
+    font-weight: bold;
+}
+
+.ccoffee ul li {
+    list-style: none;
+    font-family: var(--ff-primary);
+    text-align: left;
+    font-weight: bold;
+}
+
+.bburrito ul li span,
+.ccoffee ul li span,
+.addOn p span {
+    float: right;
+}
+
+.addOn p{
+    font-size: .8rem;
+    /* text-align: left; */
+}
+
+
+
+.bburrito ul p
+ {
+    font-family: var(--ff-secondary);
+    font-size: .8rem;
+    text-align: left;
+}
+
+.ccoffee p {
+    font-family: var(--ff-secondary);
+    font-size: .69rem;
+    text-align: center;
+}
