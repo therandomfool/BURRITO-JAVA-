@@ -21,6 +21,10 @@ body {
     color: var(--clr-primary-200);
 }
 
+a.nav-link {
+   color: yellow;
+}
+
 .navbar-nav {
     width: 70%;
     padding-right: 3em;
@@ -258,4 +262,12 @@ nav {
     font-family: var(--ff-secondary);
     font-size: .69rem;
     text-align: center;
+}
+
+.thought {
+    font-family: var(--ff-primary);
+    line-height: 1.75rem;
+}
+.thought ol{
+    font-family: var(--ff-secondary);
 }
