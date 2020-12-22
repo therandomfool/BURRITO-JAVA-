@@ -267,6 +267,8 @@ nav {
 .thought {
     font-family: var(--ff-primary);
     line-height: 1.75rem;
+    padding-left: 9rem;
+    margin: auto;
 }
 .thought ol{
     font-family: var(--ff-secondary);
